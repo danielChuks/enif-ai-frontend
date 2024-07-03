@@ -17,6 +17,8 @@ export function SmartCustomer() {
                     <img src='assets/images/grp.png' alt='grp' />
                 </div>
             </div>
+            {/* i could not implement the design for this footer the figma did not allow me inspect because dev tools was not enabled.. 
+            sent a follow up mail on that reagrd but got no response */}
             {/* <SmartSupportFooter /> */}
         </>
     );

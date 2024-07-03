@@ -1,4 +1,4 @@
 export * from "./top-nav";
 export * from "./smart-customer";
 export * from "./smart-support-footer";
-export * from "./ditch-script";
+export * from "./Item-display";
