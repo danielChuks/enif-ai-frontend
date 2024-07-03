@@ -1,10 +1,12 @@
+"use Client";
 import React from "react";
-import { TopNav } from "../../components";
+import { SmartCustomer, TopNav } from "../../components";
 
 export function Home() {
     return (
         <>
             <TopNav />
+            <SmartCustomer />
         </>
     );
 }
