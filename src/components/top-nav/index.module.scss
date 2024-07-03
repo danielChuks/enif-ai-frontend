@@ -1,0 +1,40 @@
+@import "../../../src//global-style/index.scss";
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    gap: 0px;
+    padding: 10px;
+
+    .list_menu {
+        display: flex;
+        gap: 10px;
+        // align-content: center;
+
+        .list_item {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .learn_more_wrapper {
+        padding-right: 81px;
+        .learn_more {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 113px;
+            height: 36px;
+            top: 14px;
+            left: 1246px;
+            padding: 8px;
+            border-radius: 37.5px;
+            background-color: #dcccff;
+            cursor: pointer;
+            font-family: Axiforma;
+            font-size: 12px;
+            font-weight: 600;
+            text-align: left;
+        }
+    }
+}

@@ -1,0 +1,158 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/top-nav/index.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 250;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Thin.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: italic;
+  font-weight: 250;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Thin%20Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Book.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Book%20Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Light%20Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Medium%20Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20SemiBold%20Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Bold%20Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20ExtraBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20ExtraBold%20Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Black.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: italic;
+  font-weight: 900;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Black%20Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 950;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Heavy.woff") format("woff");
+}
+@font-face {
+  font-family: "Axiforma";
+  font-style: italic;
+  font-weight: 950;
+  src: local("Axiforma"), url("https://fonts.cdnfonts.com/s/28727/Kastelov%20%20Axiforma%20Heavy%20Italic.woff") format("woff");
+}
+.top-nav_container__HgGUx {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  gap: 0px;
+  padding: 10px;
+}
+.top-nav_container__HgGUx .top-nav_list_menu__oR8gG {
+  display: flex;
+  gap: 10px;
+}
+.top-nav_container__HgGUx .top-nav_list_menu__oR8gG .top-nav_list_item__o_keX {
+  display: flex;
+  align-items: center;
+}
+.top-nav_container__HgGUx .top-nav_learn_more_wrapper__DzCY9 {
+  padding-right: 81px;
+}
+.top-nav_container__HgGUx .top-nav_learn_more_wrapper__DzCY9 .top-nav_learn_more__IbDAs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 113px;
+  height: 36px;
+  top: 14px;
+  left: 1246px;
+  padding: 8px;
+  border-radius: 37.5px;
+  background-color: #dcccff;
+  cursor: pointer;
+  font-family: Axiforma;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+}
