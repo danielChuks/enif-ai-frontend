@@ -1,11 +1,13 @@
 import React from "react";
 import styles from "./index.module.scss";
+import classNames from "classnames";
 
 interface IItemDisplay {
     readonly headText: string;
     readonly description: string;
     readonly buttonText: string;
     image: string;
+    differentBackground?: boolean;
 }
 
 export function ItemDisplay({
@@ -13,11 +15,18 @@ export function ItemDisplay({
     description,
     buttonText,
     image,
+    differentBackground,
 }: IItemDisplay) {
     return (
         <>
-            <div className={styles.container}>
-                <div className={styles.text_wrapper}>
+            <div
+                className={classNames(styles.container, {
+                    [styles.differentBackground]: differentBackground,
+                })}
+            >
+                <div
+                    className={classNames(styles.text_wrapper)}
+                >
                     <div className={styles.header_text}>{headText}</div>
                     <span>{description}</span>
                     <div className={styles.learn_more}>{buttonText}</div>

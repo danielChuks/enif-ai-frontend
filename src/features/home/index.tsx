@@ -1,6 +1,6 @@
 "use Client";
 import React from "react";
-import { ItemDisplay, SmartCustomer, TopNav } from "../../components";
+import { Footer, ItemDisplay, SmartCustomer, TopNav } from "../../components";
 
 export function Home() {
     return (
@@ -31,6 +31,16 @@ export function Home() {
                 buttonText={"Learn more"}
                 image={"assets/images/Frame 1000006809.png"}
             />
+            <ItemDisplay
+                headText={"Train Enif Like a New Hire (It's Easy!)"}
+                description={
+                    "Set up Enif in minutes, no coding required. Train it on your knowledge base, and it'll tackle inquiries like a pro in no time."
+                }
+                buttonText={"Learn more"}
+                image={"assets/images/Frame 1000006812.png"}
+                differentBackground={true}
+            />
+            <Footer />
         </>
     );
 }

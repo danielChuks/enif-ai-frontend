@@ -1,0 +1,64 @@
+@import "../../../src//global-style/index.scss";
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 64px;
+    gap: 0px;
+    padding: 10px;
+    background-color: #ffff;
+    padding-top: 40px;
+    padding-bottom: 300px;
+
+    .logo_container {
+        padding-left: 81px;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        padding-bottom: 40px;
+
+        .header {
+            font-weight: 700;
+        }
+
+        img {
+            height: 25px;
+            width: 75px;
+        }
+
+        .subcontent {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding-top: 30px;
+            line-height: 20px;
+
+            .inner_sub {
+                display: flex;
+                flex-direction: column;
+
+                .inner_header {
+                    font-weight: 700;
+                }
+                .inner_content {
+                    padding-top: 10px;
+                    font-weight: 300;
+                }
+            }
+        }
+        .subcontent_pricing {
+            width: 100px;
+            line-height: 24px;
+        }
+    }
+
+    .list_menu {
+        display: flex;
+        gap: 200px;
+
+        .list_item {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+}
